@@ -62,7 +62,7 @@ describe("App", () => {
     });
   });
 
-  test('landing on a bad page shows "Not Found" page', () => {
+  test('landing on an invalid url shows "Not Found" component', () => {
     const history = createMemoryHistory();
     history.push("/some/bad/route");
     render(
