@@ -4,6 +4,7 @@ import { updateCard, readDeck, readCard } from "../../utils/api/index.js";
 import CardForm from "./CardForm.js";
 
 function EditCard({ updatedDecks }) {
+  
   const { deckId, cardId } = useParams();
   const history = useHistory();
   const [deck, setDeck] = useState([]);

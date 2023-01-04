@@ -10,7 +10,7 @@ import EditCard from "./Decks/EditCards";
 import CardAdd from "./Decks/cardAdd";
 import EditDecks from "./Decks/EditDecks";
 
-function Layout() {
+function Components() {
   const [length, setLength] = useState(0);
   const updatedDecks = (newDecks) => {
     setLength(() => length + newDecks);
@@ -51,4 +51,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default Components;

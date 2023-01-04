@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Layout from "./Layout";
+import Components from "./Components";
 
 
 
@@ -9,7 +9,7 @@ function App() {
     <div className="app-routes">
       <Switch>
         <Route path="/">
-          <Layout />
+          <Components />
         </Route>
       </Switch>
     </div>
